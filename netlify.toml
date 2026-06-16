@@ -1,7 +1,7 @@
 [build]
   base = "frontend"
   publish = "build"
-  command = "react-app-rewired build"
+  command = "npx react-app-rewired build"
 
 [[redirects]]
   from = "/*"
