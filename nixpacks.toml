@@ -1,8 +1,7 @@
-[phases.install]  
-cmds = ["pip install -r backend/requirements.txt"]  
-  
-[variables]  
-NIXPACKS_PYTHON_VERSION = "3.11"  
-  
-[start]  
-cmd = "cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT" 
+providers = ["python"] 
+ 
+[phases.install] 
+cmds = ["pip install -r backend/requirements.txt"] 
+ 
+[start] 
+cmd = "cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT"
