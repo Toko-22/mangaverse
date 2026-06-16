@@ -1,14 +1,14 @@
 import React, { useState, useRef } from "react";
-import { useAuth } from "src/context/AuthContext";
-import { fmtError, uploadImage } from "src/api";
+import { useAuth } from "../context/AuthContext";
+import { fmtError, uploadImage } from "../api";
 import { toast } from "sonner";
-import { t, dirFor } from "src/lib/i18n";
-import { Button } from "src/components/ui/button";
-import { Input } from "src/components/ui/input";
-import { Label } from "src/components/ui/label";
-import { Textarea } from "src/components/ui/textarea";
-import { Avatar, AvatarFallback, AvatarImage } from "src/components/ui/avatar";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "src/components/ui/card";
+import { t, dirFor } from "../lib/i18n";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Textarea } from "../components/ui/textarea";
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../components/ui/card";
 import { User as UserIcon, Image as ImageIcon, FileText, Save, Languages, Mountain, Upload, Loader2 } from "lucide-react";
 
 const PRESET_AVATARS = [

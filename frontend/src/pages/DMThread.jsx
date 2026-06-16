@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import api from "src/api";
-import ChatRoom from "src/components/ChatRoom";
+import api from "../api";
+import ChatRoom from "../components/ChatRoom";
 
 export default function DMThread() {
   const { userId } = useParams();

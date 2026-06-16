@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import api from "src/api";
-import { Avatar, AvatarFallback, AvatarImage } from "src/components/ui/avatar";
+import api from "../api";
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
 import { Send } from "lucide-react";
 
 export default function DMList() {

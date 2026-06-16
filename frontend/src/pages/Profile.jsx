@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import api, { fmtError } from "src/api";
-import { useAuth } from "src/context/AuthContext";
-import { Avatar, AvatarFallback, AvatarImage } from "src/components/ui/avatar";
-import { Button } from "src/components/ui/button";
-import { Input } from "src/components/ui/input";
-import { Textarea } from "src/components/ui/textarea";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "src/components/ui/tabs";
-import { Badge } from "src/components/ui/badge";
+import api, { fmtError } from "../api";
+import { useAuth } from "../context/AuthContext";
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Textarea } from "../components/ui/textarea";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../components/ui/tabs";
+import { Badge } from "../components/ui/badge";
 import { toast } from "sonner";
 
 const STATUS_LABEL = {

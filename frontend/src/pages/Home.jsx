@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import api from "src/api";
-import TitleCard from "src/components/TitleCard";
-import { Input } from "src/components/ui/input";
-import { Tabs, TabsList, TabsTrigger } from "src/components/ui/tabs";
+import api from "../api";
+import TitleCard from "../components/TitleCard";
+import { Input } from "../components/ui/input";
+import { Tabs, TabsList, TabsTrigger } from "../components/ui/tabs";
 import { Search, Flame, X } from "lucide-react";
-import { arGenre } from "src/lib/genres";
-import { t as tr } from "src/lib/i18n";
-import { useAuth } from "src/context/AuthContext";
-import Pagination from "src/components/Pagination";
+import { arGenre } from "../lib/genres";
+import { t as tr } from "../lib/i18n";
+import { useAuth } from "../context/AuthContext";
+import Pagination from "../components/Pagination";
 
 const HERO = "https://images.unsplash.com/photo-1752338384552-1cda3350baba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHx0b2t5byUyMG5pZ2h0JTIwYWxsZXl8ZW58MHx8fHwxNzc4NTA5MDMwfDA&ixlib=rb-4.1.0&q=85";
 

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { useAuth } from "src/context/AuthContext";
-import { fmtError } from "src/api";
+import { useAuth } from "../context/AuthContext";
+import { fmtError } from "../api";
 import { toast } from "sonner";
-import { Button } from "src/components/ui/button";
-import { Input } from "src/components/ui/input";
-import { Label } from "src/components/ui/label";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "src/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../components/ui/card";
 
 export default function Register() {
   const { register } = useAuth();

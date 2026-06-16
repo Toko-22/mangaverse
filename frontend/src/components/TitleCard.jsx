@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
-import { Badge } from "src/components/ui/badge";
-import { proxyImg } from "src/api";
+import { Badge } from "../components/ui/badge";
+import { proxyImg } from "../api";
 
 const typeLabel = { manhwa: "مانهوا", manga: "مانجا" };
 

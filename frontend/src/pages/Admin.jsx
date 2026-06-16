@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import api, { fmtError } from "src/api";
+import api, { fmtError } from "../api";
 import { toast } from "sonner";
-import { Button } from "src/components/ui/button";
-import { Input } from "src/components/ui/input";
-import { Label } from "src/components/ui/label";
-import { Textarea } from "src/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "src/components/ui/select";
-import { Badge } from "src/components/ui/badge";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Textarea } from "../components/ui/textarea";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { Badge } from "../components/ui/badge";
 import { Trash2, Plus, FilmIcon, BookOpen, PlayCircle, RefreshCw, Clock } from "lucide-react";
 
 const EMPTY = {
