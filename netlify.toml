@@ -1,12 +1,9 @@
-[build]
-  base = "frontend"
-  publish = "build"
-  command = "npm run build"
-
-[build.environment]
-  NODE_VERSION = "18"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
+[build] 
+  base = "frontend" 
+  publish = "frontend/build" 
+  command = "npx craco build" 
+ 
+[[redirects]] 
+  from = "/*" 
+  to = "/index.html" 
   status = 200
