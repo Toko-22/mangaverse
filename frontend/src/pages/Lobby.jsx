@@ -1,5 +1,5 @@
 import React from "react";
-import ChatRoom from "@/components/ChatRoom";
+import ChatRoom from "src/components/ChatRoom";
 import { Sparkles } from "lucide-react";
 
 export default function Lobby() {

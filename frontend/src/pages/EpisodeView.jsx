@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import api, { proxyImg } from "@/api";
-import { Button } from "@/components/ui/button";
+import api, { proxyImg } from "src/api";
+import { Button } from "src/components/ui/button";
 import { ChevronRight, ChevronLeft, ArrowRight, Loader2 } from "lucide-react";
 
 export default function EpisodeView() {

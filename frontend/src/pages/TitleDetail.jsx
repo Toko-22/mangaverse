@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import api, { fmtError, proxyImg } from "@/api";
-import { arGenre } from "@/lib/genres";
+import api, { fmtError, proxyImg } from "src/api";
+import { arGenre } from "src/lib/genres";
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Textarea } from "@/components/ui/textarea";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "src/components/ui/button";
+import { Badge } from "src/components/ui/badge";
+import { Textarea } from "src/components/ui/textarea";
+import { Avatar, AvatarFallback, AvatarImage } from "src/components/ui/avatar";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "src/components/ui/tabs";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "src/components/ui/select";
 import { Star, MessageSquare, Bookmark, PlayCircle, BookOpen } from "lucide-react";
-import ChatRoom from "@/components/ChatRoom";
+import ChatRoom from "src/components/ChatRoom";
 
 const TYPE_LABEL = { anime: "أنمي", manhwa: "مانهوا", manga: "مانجا" };
 

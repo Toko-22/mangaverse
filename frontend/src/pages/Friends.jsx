@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import api, { fmtError } from "@/api";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import api, { fmtError } from "src/api";
+import { Avatar, AvatarFallback, AvatarImage } from "src/components/ui/avatar";
+import { Button } from "src/components/ui/button";
+import { Input } from "src/components/ui/input";
 import { toast } from "sonner";
 import { UserPlus, Check, X, MessageSquare, Search, UserMinus } from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "src/components/ui/tabs";
 
 export default function Friends() {
   const [data, setData] = useState({ friends: [], incoming: [], outgoing: [] });
