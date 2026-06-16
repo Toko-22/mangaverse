@@ -1,9 +1,9 @@
-[build] 
-  base = "frontend" 
-  publish = "frontend/build" 
-  command = "npx craco build" 
- 
-[[redirects]] 
-  from = "/*" 
-  to = "/index.html" 
+[build]
+  base = "frontend"
+  publish = "build"
+  command = "react-app-rewired build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
   status = 200
